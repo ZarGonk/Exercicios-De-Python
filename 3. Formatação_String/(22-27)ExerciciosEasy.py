@@ -34,7 +34,7 @@ print(min[:5] == "santo")
 '''
 name = str(input("Digite o nome da pessoa: "))
 
-print("No nome {} tem Silva ? {}".format(name, "SILVA" in name.upper()))
+print("No nome {} tem foi encontrado Silva ? {}".format(name, "SILVA" in name.upper()))
 '''
 #Desafio 26 - faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra "A", em que posição ela aparece a primeira vez e em que posição ela aparece a ultima vez.
 '''
@@ -46,7 +46,7 @@ print("Quantos (A) tem: {}\nPrimeira posicao: {}\nUltima posicao: {}".format(min
 '''
 #Desafio 27 - faça um programa que leia o nome completo de uma pessoa e mostre: o primeiro e o ultimo nome separadamente. Ex.: Ana Maria de Souza. Prinome: Ana Sobrenome: Souza
 
-name = str(input("Digite seu nome: ")).strip()
+name = str(input("Digite seu nome completo: ")).strip()
 
 c = name.split() #Separa o nome
 p = c[0] #primeiro nome
