@@ -30,7 +30,7 @@ else:
     print(f"{ano} não é um ano bissexto.")
 '''
 #Desafio 33 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
-
+'''
 a = float(input('Digite primeiro numero: '))
 b = float(input('Digite segundo numero: '))
 c = float(input('Digite terceiro numero: '))
@@ -51,7 +51,7 @@ if (c > a) and (c > b):
 
 
 print("O maior número é {}".format(maior))
-print('O menor numero é {}'.format(menor))
+print('O menor numero é {}'.format(menor))'''
 #Desafio 34 - Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
 '''
 num = float(input('Digite o seu Salario: '))
@@ -66,7 +66,7 @@ else:
   print('Seu Salario Vai Passar a Ser {}'.format())
 '''
 #Desafio 35 - Desenvolva um programa que leia o comprimento de tres retas e diga ao usuário se elas podem ou não formar um triângulo
-'''
+
 a = float(input('Digite primeiro numero: '))
 b = float(input('Digite segundo numero: '))
 c = float(input('Digite terceiro numero: '))
@@ -75,4 +75,3 @@ if a < b + c and b < a + c and c < a + b:
   print('\nPode formar um tringulo')
 else:
   print('\nNao forma um triangulo')
-'''
