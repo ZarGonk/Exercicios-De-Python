@@ -8,6 +8,7 @@ print('\nOLHA EXLOSÂO\nQUANDO ELA BATE COM A BUNDA NO CHÃO')
 #Desafio 47 - crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
 '''for i in range(0, 51, 2):
   print(i, end=' ')'''
+
 #Desafio 48 - Faça um programa que calcule a soma entre todos os números ímpares que são múltiplos de três e que se encontram no intervalo de 1 até 500.
 '''s = 0
 for i in range(1, 501):
@@ -18,11 +19,11 @@ print('A Soma dentre os impares,multiplos de 3 é: {}'.format(s))
 
 #OUUU
 
-S = 0
+"""S = 0
 for i in range(1, 500, 2):
     if (i%3) == 0 :
         S += i
-print(S)
+print(S)"""
 
 '''
 #Desafio 49 - Refaça o desafio 9, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for.
