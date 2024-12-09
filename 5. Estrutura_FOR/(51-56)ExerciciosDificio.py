@@ -9,6 +9,7 @@ for i in range(1 , 11):
   print(an, end=' -> ')
 print('ACABOU')
 '''
+
 #Desafio 52 - Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
 '''num = int(input('Digite Um Numero Inteiro: '))
 
@@ -21,6 +22,7 @@ elif num % 2 == 0 or num % 3 == 0:
 else:
   print('Esse numero é primo: {}'.format(num))
 '''
+
 #Desafio 53 - Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, 
 # desconsiderando os espaços. 
 # Exemplos: APOS A SOPA, A SACADA DA CASA, 
@@ -34,6 +36,7 @@ else:
   print('\nA frase não é um Palindromo')
 print('\nO inverso da frase é: \n{}'.format(frasejunta[::-1]))
 '''
+
 #Desafio 54 - Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores. Considerando 21 anos.
 '''from datetime import date
 
@@ -50,6 +53,7 @@ for i in range(0, 7):
     menor =+ 1
 print('São maior de idade: {}  \nSão menor de idade: {}'.format(maior, menor))
 '''
+
 #Desafio 55 - Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
 '''maior = 0 
 menor = 0
@@ -66,10 +70,9 @@ for i in range(0, 5):
       menor = num
 print('O maior peso é: {:.1f}Kg\nO menor peso é: {:.1f}Kg'.format(maior, menor))
 '''
+
 #Desafio 56 - Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: a média de idade do grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
-tot = 0
-maior = 0
-woman = 0
+tot = maior = woman = 0
 velho = ''
 
 for i in range(4):  
