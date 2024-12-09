@@ -40,8 +40,7 @@ print('\nO inverso da frase é: \n{}'.format(frasejunta[::-1]))
 #Desafio 54 - Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores. Considerando 21 anos.
 '''from datetime import date
 
-maior = 0
-menor = 0
+maior = menor = 0
 
 for i in range(0, 7):
   ano = int(input('Qual seu ano de nascimento: '))
@@ -55,8 +54,7 @@ print('São maior de idade: {}  \nSão menor de idade: {}'.format(maior, menor))
 '''
 
 #Desafio 55 - Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
-'''maior = 0 
-menor = 0
+'''maior = menor = 0
 
 for i in range(0, 5):
   num = float(input('{} - Qual O seu peso (KG): '.format(i+1)))
