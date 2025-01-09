@@ -2,13 +2,6 @@
 
 '''print("olá,Mundo!")'''
 
-#desafio 2 - faça um codigo que pergunte o nome do usuario e depois imprima "ola, nome ,prazer em te conhecer"
-'''
-nome = input("qual seu nome?")
-
-print("ola", nome , "prazer em te conhece")
-'''
-
 #desafio 3 - faça um codigo que leia dia,mes e ano e imprima na tela como uma frase
 '''
 dia = input("dia?")
