@@ -7,14 +7,6 @@ suc = n + 1
 print("o antecessor: {} \no sucessor: {}".format(ant, suc))
 '''
 
-#Desafio 11 - Crie um programa que leia quanto dinheiro uma pessoa tem, quantos dolares ela consegue comprar com esse dinheiro
-#considerando R$ 1.00 = R$ 3.27
-'''
-dinheiro = float(input("Quanto a na sua carteira ?"))
-dolar = dinheiro / 3.27
-
-print("Você consegue compra: {:.2f}".format(dolar))
-'''
 #Desafio 12 - Crie um programa que leia a altura e a lagura de uma parede em metros, calcule a area total, e a quantidade necessaria de tinta para pintar esta parede, sabendo que cada litro de tinta pinta 2m^2
 '''
 alt = float(input("qual a altura da parede: "))

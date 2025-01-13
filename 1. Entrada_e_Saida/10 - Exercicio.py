@@ -12,6 +12,6 @@ nove = n * 9
 dez = n * 10
 
 print()
-print("Taboada":.^=)
+print("=====Taboada=====")
 print("1 * {} = {} \n2 * {} = {}\n3 * {} = {}\n4 * {} = {}\n5 * {} = {}".format(n, um, n, dois, n, tres, n, quatro, n, cinco))
 print("6 * {} = {} \n7 * {} = {}\n8 * {} = {}\n9 * {} = {}\n10 * {} = {}".format(n,seis, n, sete, n, oito, n, nove, n, dez))
