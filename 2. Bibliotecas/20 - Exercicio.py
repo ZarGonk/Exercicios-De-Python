@@ -9,4 +9,4 @@ a4 = input("informe nome do 4° aluno:")
 lista = [a1, a2, a3, a4]
 escolhido = sample(lista, k=4)
 
-print("a ordem de apresentação sera \n{}".format(escolhido))
+print("a ordem de apresentação sera \n{}".format(escolhido)) 
