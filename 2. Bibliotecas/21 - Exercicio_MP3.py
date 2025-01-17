@@ -20,3 +20,4 @@ input()  # Aguarda o usuário pressionar Enter para parar a execução
 # Para a música e finaliza o pygame
 pygame.mixer.music.stop()
 pygame.quit()
+ 
