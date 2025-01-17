@@ -8,4 +8,4 @@ coss = math.cos(ang_rad)
 sen = math.sin(ang_rad)
 tang = math.tan(ang_rad)
 
-print("Do seu angulo {} aqui esta:\nCosseno: {:.2f}\nSeno: {:.2f}\nTangente: {:.2f}".format(ang, coss, sen, tang)) 
+print("Do seu angulo {} aqui esta:\nCosseno: {:.2f}\nSeno: {:.2f}\nTangente: {:.2f}".format(ang, coss, sen, tang))
