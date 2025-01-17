@@ -5,4 +5,4 @@ from math import trunc
 
 num = float(input("Digite um Numero Real: "))
 
-print("o numero inteiro é: {}".format(trunc(num)))
+print("o numero inteiro é: {}".format(trunc(num))) 
