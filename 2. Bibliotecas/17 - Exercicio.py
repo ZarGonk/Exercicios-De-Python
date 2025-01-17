@@ -7,4 +7,4 @@ v1 = float(input("Diga seu A: "))
 v2 = float(input("Diga seu B: "))
 hip = hypot(v1, v2)
 
-print("o Valor da sua Hipotenisa é: {:.2f}".format(hip))
+print("o Valor da sua Hipotenisa é: {:.2f}".format(hip)) 
