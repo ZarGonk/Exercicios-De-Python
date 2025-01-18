@@ -1,4 +1,4 @@
-#Desafio 27 - faça um programa que leia o nome completo de uma pessoa e mostre: o primeiro e o ultimo nome separadamente. Ex.: Ana Maria de Souza. Prinome: Ana Sobrenome: Souza
+# Desafio 27 - faça um programa que leia o nome completo de uma pessoa e mostre: o primeiro e o ultimo nome separadamente. Ex.: Ana Maria de Souza. Prinome: Ana Sobrenome: Souza
 
 name = str(input("Digite seu nome completo: ")).strip()
 
