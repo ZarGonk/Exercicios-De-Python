@@ -10,13 +10,7 @@ primeiro_nome = len(nome.split()[0])  # Pega o primeiro nome
 print("Nome Maiusculo:{} \nNome Minusculos: {}\nSem Espaço: {}\nQuantidade de letras no primeiro nome: {}".format(M, m, len(uni), primeiro_nome))
 '''
 
-#Desafio 24 - crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO".
-'''
-n = str(input("Digite o nome da sua cidade: ")).strip()
-min = n.lower()
 
-print(min[:5] == "santo")
-'''
 #Desafio 25 - crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 '''
 name = str(input("Digite o nome da pessoa: "))
