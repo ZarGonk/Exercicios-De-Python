@@ -12,14 +12,7 @@ print("Nome Maiusculo:{} \nNome Minusculos: {}\nSem Espaço: {}\nQuantidade de l
 
 
 
-#Desafio 26 - faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra "A", em que posição ela aparece a primeira vez e em que posição ela aparece a ultima vez.
-'''
-f = str(input("digite sua frase: ")).strip()
-min = f.lower()
 
-
-print("Quantos (A) tem: {}\nPrimeira posicao: {}\nUltima posicao: {}".format(min.count("a"), min.find("a"), min.rfind("a")) )
-'''
 #Desafio 27 - faça um programa que leia o nome completo de uma pessoa e mostre: o primeiro e o ultimo nome separadamente. Ex.: Ana Maria de Souza. Prinome: Ana Sobrenome: Souza
 
 name = str(input("Digite seu nome completo: ")).strip()
