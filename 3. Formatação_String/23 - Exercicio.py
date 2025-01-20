@@ -10,4 +10,4 @@ m = (n // 1000) % 10
 
 # Exibe os dígitos separadamente
 print("Milhar: {}\nCentena: {}\nDezena: {}\nUnidade: {}".format(m, 
-c, d, u))
+c, d, u)) 
