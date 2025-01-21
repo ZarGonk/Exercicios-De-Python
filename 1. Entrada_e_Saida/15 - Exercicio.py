@@ -4,4 +4,4 @@ n2 = float(input("Segunda nota: "))
 
 media = (n1 + n2) / 2
 
-print("A media aritmetica entre {} e {} é igual a {:.2f}".format(n1, n2, media))
+print("A media aritmetica entre {} e {} é igual a {:.2f}".format(n1, n2, media)) 
