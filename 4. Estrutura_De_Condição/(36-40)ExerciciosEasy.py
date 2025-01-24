@@ -1,17 +1,4 @@
 
-
-#Desafio 38 - Escreva um programa que leia dois números inteiros e compare-os. mostrando na tela uma mensagem: - O primeiro valor é maior - O segundo valor é maior - Não existe valor maior,os dois são iguais.
-'''
-num1 = int(input('Digite o primeiro Numero: '))
-num2 = int(input('Digite o segundo Numero: '))
-
-if (num1 > num2):
-  print('Numero {} é Maior que {}'.format(num1, num2))
-elif(num2 > num1):
-  print('Numero {} é Maior que {}'.format(num2, num1))
-elif (num1 == num2):
-  print('\n\033[0;31mOs Dois Numeros Tem Valores Iguais')
-'''
 #Desafio 39 - Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com a sua idade, se ele ainda vai se alistar ao serviço militar, se é a hora exata de se alistar ou se já passou do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 '''from datetime import date
 
