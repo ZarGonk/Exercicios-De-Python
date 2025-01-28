@@ -5,9 +5,6 @@ for i in range(10, -1, -1):
   sleep(0.5)
 print('\nOLHA EXLOSÂO\nQUANDO ELA BATE COM A BUNDA NO CHÃO')
 '''
-#Desafio 47 - crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
-'''for i in range(0, 51, 2):
-  print(i, end=' ')'''
 
 #Desafio 48 - Faça um programa que calcule a soma entre todos os números ímpares que são múltiplos de três e que se encontram no intervalo de 1 até 500.
 '''s = 0
