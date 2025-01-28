@@ -7,13 +7,6 @@ print('\nOLHA EXLOSÂO\nQUANDO ELA BATE COM A BUNDA NO CHÃO')
 '''
 
 
-#Desafio 49 - Refaça o desafio 9, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for.
-'''
-num = int(input('Qual Tabuada Voce Deseja: '))
-for i in range(0, 11):
-  tabuada = i * num
-  print('{} x {} = {}'.format(i, num, tabuada))
-'''
 #Desafio 50 - Desenvolva um programa que leia seis números e mostre a soma apenas daqueles que forem pares. Se o valor digitado for ímpar desconsidere-o.
 '''s = 0
 for i in range(0,6):
