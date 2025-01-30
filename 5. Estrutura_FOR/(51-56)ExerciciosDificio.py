@@ -1,21 +1,5 @@
 
 
-
-
-#Desafio 53 - Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, 
-# desconsiderando os espaços. 
-# Exemplos: APOS A SOPA, A SACADA DA CASA, 
-# A TORRE DA DERROTA, O LOBO AMA O BOLO, ANOTARAM A DATA DA MARATONA.
-'''frase = str(input('Qual Sua Frase: ')).upper()
-frasejunta = frase.replace(' ','')
-
-if frasejunta == frasejunta[::-1]:
-  print('\nA frase é um Palindromo')
-else:
-  print('\nA frase não é um Palindromo')
-print('\nO inverso da frase é: \n{}'.format(frasejunta[::-1]))
-'''
-
 #Desafio 54 - Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores. Considerando 21 anos.
 '''from datetime import date
 
