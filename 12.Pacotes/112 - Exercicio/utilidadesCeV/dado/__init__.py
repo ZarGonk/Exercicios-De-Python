@@ -1,0 +1,15 @@
+from utilidadesCeV import moeda
+
+def leiaDinheiro(msg):
+    valido = False
+    while not valido:
+        entrada = input(msg).replace(',', '.').strip()
+        
+        # Verifica se é um número válido
+        if entrada.isalpha() or entrada == '':
+            print('\033[0;31mERRO! Digite um número válido.\033[m')
+
+        else:
+            valido = True
+            return float(entrada)
+
