@@ -1,7 +1,6 @@
-#Exercício 78: Faça um programa que leia 5 valores numéricos e guarde-os 
-#em uma lista. No final, mostre qual foi o maior e o menor valor digitado
-#e as suas respectivas posições na lista.
-'''numeros = []
+# Exercício 78: Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na lista.
+
+numeros = []
 for i in range(5):
     numeros.append(int(input(f'Digite {i+1}° valor: ')))
 
@@ -21,12 +20,4 @@ for i, num in enumerate(numeros):
         posicoes_menor.append(i + 1)
 
 print(f'O maior valor add foi: {maior} na posição {posicoes_maior}°')
-print(f'O menor valor add foi: {menor} na posição {posicoes_menor}°')'''
-
-
-
-
-
-
-
-
+print(f'O menor valor add foi: {menor} na posição {posicoes_menor}°')
