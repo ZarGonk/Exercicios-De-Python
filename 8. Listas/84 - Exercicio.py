@@ -1,9 +1,9 @@
-#Exercício 84: Faça um programa que leia nome e peso de várias pessoas, 
-#guardando tudo em uma lista. No final, mostre:
+# Exercício 84: Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista. No final, mostre:
 #   Quantas pessoas foram cadastradas.
 #   Uma listagem com as pessoas mais pesadas.
 #   Uma listagem com as pessoas mais leves.
-'''dados   = list()
+
+dados   = list()
 pessoas = list()
 maior = menor = 0
 
@@ -34,10 +34,4 @@ for p in pessoas:
 print(f'\nThe minor weight registered was: {menor} of people: ',end='')
 for p in pessoas:
      if menor == p[1]:
-          print(p[0],end='...')'''
-
-
-
-
-
-
+          print(p[0],end='...')
