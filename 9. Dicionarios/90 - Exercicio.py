@@ -1,7 +1,6 @@
-#Exercício 90: Faça um programa que leia nome e média de um aluno, 
-# guardando também a situação em um dicionário. No final, mostre o 
-# conteúdo da estrutura na tela.
-'''aluno = dict()
+# Exercício 90: Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela.
+
+aluno = dict()
 
 aluno['Nome'] = str(input('Nome: ')).strip().capitalize()
 aluno['Media']= float(input(f'Media do {aluno['Nome']}: '))
@@ -22,11 +21,4 @@ print(f'Situação do aluno: {aluno['Situação']}')
 print()
 print(f'{"Boletim":=^30}')
 for chave, valor in aluno.items():
-    print(f'{chave}: {valor}')'''
-
-
-
-
-
-
-
+    print(f'{chave}: {valor}')
