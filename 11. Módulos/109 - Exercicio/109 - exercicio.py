@@ -1,4 +1,4 @@
-#Exercício 109: Modifique as funções que você criou no exercício 107 para que elas aceitem um parâmetro a mais, informando se o valor retornado deve ou não ser formatado pela função moeda(), desenvolvida no exercício 108.
+# Exercício 109: Modifique as funções que você criou no exercício 107 para que elas aceitem um parâmetro a mais, informando se o valor retornado deve ou não ser formatado pela função moeda(), desenvolvida no exercício 108.
 import modulos
 
 preço = float(input('Digite o valor: R$ '))
