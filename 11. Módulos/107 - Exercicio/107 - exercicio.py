@@ -5,11 +5,11 @@
 # dobro(preço)
 # metade(preço)
 #Faça também um programa que importe esse módulo e use algumas dessas funções.
-import modulos
+import moeda
 
 preço = float(input('Digite o valor: R$ '))
 
-print(f'A metade de {preço} é {modulos.metade(preço)}')
-print(f'A dobro de {preço} é {modulos.dobro(preço)}')
-print(f'A aumento de {preço} é {modulos.aumenta(preço, taxa=10)}')
-print(f'A diminuir de {preço} é {modulos.diminuir(preço,taxa=13)}') 
+print(f'A metade de {preço} é {moeda.metade(preço)}')
+print(f'A dobro de {preço} é {moeda.dobro(preço)}')
+print(f'A aumento de {preço} é {moeda.aumenta(preço, taxa=10)}')
+print(f'A diminuir de {preço} é {moeda.diminuir(preço,taxa=13)}') 
