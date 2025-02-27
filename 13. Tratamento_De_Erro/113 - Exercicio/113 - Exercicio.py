@@ -1,4 +1,4 @@
-#Exercício 113: Reescreva a função leiaInt() que fizemos no Exercício 104, incluindo agora a possibilidade da digitação de um número de tipo inválido.Aproveite e crie também a função leiaFloat() com a mesma funcionalidade.
+# Exercício 113: Reescreva a função leiaInt() que fizemos no Exercício 104, incluindo agora a possibilidade da digitação de um número de tipo inválido.Aproveite e crie também a função leiaFloat() com a mesma funcionalidade.
 #   Exemplo:
 
 #   n = leiaInt('Digite um número inteiro: ')
