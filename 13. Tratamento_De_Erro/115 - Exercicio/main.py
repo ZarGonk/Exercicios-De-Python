@@ -1,7 +1,8 @@
-#Exercício 115: Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples.
+# Exercício 115: Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples.
 
 #   O sistema deve ter um menu com opções de listar pessoas cadastradas, cadastrar nova pessoa e sair do sistema.
 #   Use tratamento de erros para garantir que qualquer problema com o arquivo ou entrada do usuário seja tratado de forma adequada.
+
 from lib import *
 from arquivo import *
 from time import sleep
