@@ -8,4 +8,4 @@ try:
 except urllib.error.URLError:
     print(f'\033[31mO site {url} não esta acessivel ou não é seguro\033[m ')
 else:
-    print(f'\033[32mSite {url} acessdo com sucesso\033[m') 
+    print(f'\033[32mSite {url} acessdo com sucesso\033[m')
