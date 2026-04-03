@@ -29,8 +29,6 @@ class Gamer:
             width=40)
 
         print(game_sheet)
-
-
     
 g1 = Gamer('Gustavo', 'ZarGonk')
 
