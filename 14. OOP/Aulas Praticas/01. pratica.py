@@ -1,6 +1,6 @@
 # Declaração de classe
 class Person:
-    def __init__(self, name='', age=0): # Metodo construtor
+    def __init__(self, name, age): # Metodo construtor
         # Atributos de Instancia
         self.name  = name
         self.age = age
