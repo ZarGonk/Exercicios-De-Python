@@ -33,3 +33,5 @@ if __name__ == "__main__":
     p2 = Person("Farofina", 18)
     print(p2)
 
+    print(p2.__dict__)
+    print(p2.__getstate__())
