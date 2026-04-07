@@ -10,7 +10,7 @@ class Produto:
         larg = 26
         conteudo = (
             f"{self.name.center(larg)}\n"
-            f"{('-'*26)}\n"
+            f"{('-'*larg)}\n"
             f"{('R$ ' + f'{self.value:,.2f}').center(larg, '.')}")
 
         
