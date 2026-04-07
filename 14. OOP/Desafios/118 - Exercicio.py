@@ -10,14 +10,15 @@ class Churrasco:
         # CONSIDERE:
         # Consumo padrão: 400 g por pessoa
         # Preço: R$82,40/Kg
-        meat = 0.4 * self.number_of_people
-        tot_value = 82.40 * meat
-        value_each_participant = tot_value / self.number_of_people
+        amount_of_meat = 0.4 * self.number_of_people
+        total_cost = 82.40 * amount_of_meat
+        value_each_participant = total_cost / self.number_of_people
+
         conteudo = (
             f"Analisando [green]{self.title_churras}[/] com [blue]{self.number_of_people}[/] convidados\n"
             f"Cada Participante comerá 0.4KG e cada Kg custa [red]R$82.40[/]\n"
-            f"Recomendo [blue]comprar {meat:.2f} Kg[/] de carne\n"
-            f"O custo total será de [green]R$ {tot_value:,.2f}\n[/]"
+            f"Recomendo [blue]comprar {amount_of_meat:.2f} Kg[/] de carne\n"
+            f"O custo total será de [green]R$ {total_cost:,.2f}\n[/]"
             f"Cada Pessoa parará [yellow]R$ {value_each_participant:,.2f}[/] para participante"
         )
 
@@ -26,5 +27,8 @@ class Churrasco:
         print(painel)
 
 
-c1 = Churrasco('Churras dos Guri', 5)
+c1 = Churrasco('Churras dos Guri', 15)
 c1.analisar()
+
+c2 = Churrasco('Churras das Gu', 80)
+c2.analisar()
