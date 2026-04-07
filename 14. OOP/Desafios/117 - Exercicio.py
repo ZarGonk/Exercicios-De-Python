@@ -26,4 +26,4 @@ p1 = Produto('iPhone 17 Pro Max', 25_000.85)
 p1.etiqueta()
 
 p2 = Produto("Laptop Gamer", 8_000.00)
-p2.etiqueta()
+p2.etiqueta() 
