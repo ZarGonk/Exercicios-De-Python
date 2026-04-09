@@ -19,7 +19,7 @@ class ControleRemoto:
             vol = ""
             for i in range(8):
                 if i < self.volume:
-                    vol += "[green]█[/]"
+                    vol += "[cyan]█[/]"
                 else:
                     vol += "[grey]█[/]"
 
