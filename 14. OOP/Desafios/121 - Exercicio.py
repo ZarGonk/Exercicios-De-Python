@@ -14,13 +14,13 @@ class Caneta:
     def escrever(self, mensagem):
         if self.destampada:
             if self.cor == "azul":
-                print(f"[blue]{mensagem}[/]")
+                print(f"[blue]{mensagem}[/]", end="")
             
             elif self.cor == "vermelho":
-                print(f"[red]{mensagem}[/]")
+                print(f"[red]{mensagem}[/]",end="")
             
             elif self.cor == "verde":
-                print(f"[green]{mensagem}[/]")
+                print(f"[green]{mensagem}[/]",end="")
         else:
             print('Caneta esta tampada!')
 
