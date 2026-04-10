@@ -1,6 +1,8 @@
-from rich import inspect
-from classes import Aluno, Professor, Funcionario
+from aluno import Aluno
+from professor import Professor
+from funcionario import Funcionario
 
+from rich import inspect
 
 a1 = Aluno('José', 17, 'Informatica', "T01")
 
