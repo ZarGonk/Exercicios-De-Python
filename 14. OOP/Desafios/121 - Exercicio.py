@@ -1,7 +1,7 @@
 from rich import print
 
 class Caneta:
-    def __init__(self, cor):
+    def __init__(self, cor = "azul"):
         self.cor = cor
         self.destampada = False
     
