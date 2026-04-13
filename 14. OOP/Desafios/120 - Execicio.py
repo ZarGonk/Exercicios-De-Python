@@ -6,7 +6,7 @@ class Gamer:
     def __init__(self, name, nick):
         self.name = name
         self.nick = nick
-        self.games = []
+        self.games = list()
     
     def add_favorite(self, name_game):
         self.games.append(name_game)
