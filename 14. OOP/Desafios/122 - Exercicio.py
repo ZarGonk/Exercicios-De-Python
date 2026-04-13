@@ -13,10 +13,8 @@ class ControleRemoto:
             self.mensagem = "[red]Televisão desligada[/]"
         else:
             ## FEITO POR I.A.
-            c = [
-                f"[black on yellow] {i} [/]" if i == self.canal else f" {i} "
-                for i in range(1, 10)
-            ]
+            c = [f"[black on yellow] {i} [/]" if i == self.canal else f" {i} "
+                for i in range(1, 10)]
 
             vol = ""
             for i in range(8):
